@@ -1,9 +1,10 @@
 
 .header{
     display: flex;
-    margin-left: 80rem;
     padding-left: 31px;
     padding-top: 8px;
+    margin-bottom: 12vh;
+    margin-left: 76rem;
 }
 .header .l{
     text-decoration: none;
@@ -13,9 +14,11 @@
 }#gm{
     padding-left: 10px;
     padding-top: 11px;
+    padding-right: 58px;
 }
 #gg{
-    padding-top: 11px;  
+    padding-top: 11px;
+    padding-right: 10px;  
 }
 .list
 {
@@ -36,31 +39,34 @@
 }
 .img-row
 {
-    margin-top: 23vh;
+    margin-top: 1vh;
 }
 .logo
 {
     width: 272px;
     height: 92px;
-    padding-left: 39vw;
+    padding-left: 41vw;
     cursor: pointer;
 }
 .search
 {
-    padding-left: 31vw;
+    padding-left: 32vw;
     padding-top: 22px;
 }
 .search-box{
-    width: 487px;
-    height: 34px;
+    width: 33vw;
+    height: 41px;
     border-radius: 25px;
     background: url('data:image/gif;base64,R0lGODlhHAAmAKIHAKqqqsvLy0hISObm5vf394uLiwAAAP///yH5BAEAAAcALAAAAAAcACYAAAO9eLpMIMYIQJi9DcYtKv6KtnHgB4yoAZSXKAyDy1rjoAzjzOQLrx8+4OanCAZnxiExGSEKmz3lj2lwUq3SZ3WZPbKuXGgxu9t4tLYDTkpIRQILF0x2G4lWipM7gj/oJQUkcXsCDCIFATULBCIcZ2tvB3QLDxETFnR/BgU/gRt9jX0gnpYMkJZpFzEoqQqJKAIBaQOVKHAXr3t7txgBjboSvB8EpLoFZywOAo3LFE5lYs/QW9LT1TRk1V7S2xYJADs'), url('https://static.vecteezy.com/system/resources/previews/002/272/237/original/search-icon-simple-free-illustration-free-vector.jpg');
     background-repeat:no-repeat,no-repeat;
     background-size:14px 19px,14px 19px;
-    background-position-y: 9px,9px;
-    background-position-x: 484px,10px;
+    background-position-y: 13px,14px;
+    background-position-x: 506px,17px;
     cursor: pointer;
     padding-left: 33px;
+    border-block-color: inherit;
+    border-top-style: outset;
+    border-inline-style: none;
 }
 ::placeholder {
     font-style: italic;
@@ -83,20 +89,22 @@
     
 }
 .button-row{
-    margin-left:125px;
+    margin-left: 158px;
     
 }
 .lang
 {
     margin-top: 40px;
+    margin-left: 18px;
 }
 .lang .a{
     text-decoration: none;
     color: blue;
+    font-size: small;
 }
 
 footer {
-	/* position: absolute; */
+	position: fixed;
 	bottom:0px;
 	left:0px;
 	right:0px;
@@ -109,7 +117,7 @@ footer {
 footer a:link, a:visited, a:active {
 	color: #696969;
 	font-family: arial, sans-serif;
-	font-size:12px;
+	font-size: 14px;
 	text-decoration:none;
     }
     
@@ -133,12 +141,5 @@ footer a:hover {
 	padding-right:15px;
 	padding-left:15px;
 }
-.location
-{
-    margin-top: 19vh;
-    color: #70757a;
-    padding-left: 33px;
-    background: #f2f2f2;
-    
-}
+
 
